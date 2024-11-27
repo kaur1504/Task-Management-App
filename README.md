@@ -1,5 +1,5 @@
 # Getting Started with Create React App
-
+The project demonstrates A task management app used for individuals to create tasks and manage the tasks effectively.
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
