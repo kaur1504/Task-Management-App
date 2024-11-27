@@ -1,0 +1,152 @@
+/* .toColor{
+    width: 100vw;
+    height: 100vh;;
+    background: linear-gradient(135deg, #ff45456d, #faaf2fc3);
+    color: black;
+}
+p{
+    color: black;
+}
+.main-container {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .content {
+    width: 30vw;
+    padding: 40px;
+    text-align: center;
+    margin-left: 10rem;
+  }
+  
+  .content h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .task-progress {
+    margin-bottom: 30px;
+  }
+  
+  .task-progress p {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .pie-chart-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+  }
+  
+  .pie-chart-container .react-minimal-pie-chart {
+    background-color: #34495e;
+    border-radius: 50%;
+    padding: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .main-container {
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+    }
+  
+    .content {
+      width: 90vw;
+      margin-left: 0;
+    }
+  }
+   */
+   .toColor {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(135deg, #ff45456d, #faaf2fc3);
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  color: black;
+}
+
+.main-container {
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.content {
+  width: 30vw;
+  padding: 40px;
+  text-align: center;
+  margin-left: 10rem;
+  background: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.content h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+.task-progress {
+  margin-bottom: 30px;
+}
+
+.task-progress p {
+  font-size: 18px;
+  margin: 10px 0;
+  color: #34495e;
+}
+
+.pie-chart-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.pie-chart-container .react-minimal-pie-chart {
+  background-color: #34495e;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+@media (max-width: 768px) {
+  .main-container {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .content {
+    width: 90vw;
+    margin-left: 0;
+  }
+
+  .content h2 {
+    font-size: 28px;
+  }
+
+  .task-progress p {
+    font-size: 16px;
+  }
+
+  .pie-chart-container {
+    margin-top: 20px;
+  }
+}

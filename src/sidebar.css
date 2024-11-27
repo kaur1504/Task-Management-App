@@ -1,0 +1,221 @@
+/* .sidebar {
+  width: 260px;
+  background-color: #2e3b4e;
+  padding: 20px;
+  height: 100vh;
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  transition: width 0.3s ease;
+  font-family: 'Arial', sans-serif;
+}
+
+.sidebar .logo {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.sidebar .logo h3 {
+  font-size: 26px;
+  font-weight: bold;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+.sidebar .user-info {
+  margin-bottom: 30px;
+}
+
+.sidebar .profile {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.sidebar .profile img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+  border: 3px solid #fff;
+}
+
+.sidebar .profile h3 {
+  font-size: 20px;
+  margin-bottom: 5px;
+  color: #fff;
+}
+
+.sidebar .profile p {
+  font-size: 14px;
+  color: #bbb;
+}
+
+.sidebar .sidebar-button {
+  width: 100%;
+  padding: 14px;
+  background-color: #667283;
+  color: white;
+  border: none;
+  font-size: 18px;
+  text-align: left;
+  margin-bottom: 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, padding 0.2s ease;
+}
+
+.sidebar .sidebar-button:hover {
+  background-color: #4a5a6a;
+  padding-left: 18px;
+}
+
+.sidebar .logout-button {
+  width: 100%;
+  padding: 14px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  font-size: 18px;
+  margin-top: 25px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, padding 0.2s ease;
+}
+
+.sidebar .logout-button:hover {
+  background-color: #d32f2f;
+  padding-left: 18px;
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    width: 220px;
+  }
+  .sidebar .logo h3 {
+    font-size: 22px;
+  }
+  .sidebar .profile img {
+    width: 60px;
+    height: 60px;
+  }
+} */
+.sidebar {
+  width: 260px;
+  background-color: #2e3b4e;
+  padding: 20px;
+  height: 100vh;
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  transition: width 0.3s ease;
+  font-family: 'Arial', sans-serif;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.logo h3 {
+  font-size: xx-large;
+  font-weight: bold;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+.logo-image {
+  width: 80px;
+  height: 60px;
+  object-fit: contain;
+}
+
+.user-info {
+  margin-bottom: 30px;
+}
+
+.profile {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.profile img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+  border: 3px solid #fff;
+}
+
+.profile h3 {
+  font-size: 20px;
+  margin-bottom: 5px;
+  color: #fff;
+}
+
+.profile p.mail {
+  font-size: 14px;
+  color: black;
+}
+
+.sidebar-button {
+  width: 100%;
+  padding: 14px;
+  background-color: #667283;
+  color: white;
+  border: none;
+  font-size: 18px;
+  text-align: left;
+  margin-bottom: 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, padding 0.2s ease;
+}
+
+.sidebar-button:hover {
+  background-color: #4a5a6a;
+  padding-left: 18px;
+}
+
+.logout-button {
+  width: 100%;
+  padding: 14px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  font-size: 18px;
+  margin-top: 25px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, padding 0.2s ease;
+}
+
+.logout-button:hover {
+  background-color: #d32f2f;
+  padding-left: 18px;
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    width: 220px;
+  }
+  .logo h3 {
+    font-size: 22px;
+  }
+  .profile img {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+p {
+  color:black;
+}

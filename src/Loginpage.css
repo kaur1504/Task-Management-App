@@ -1,0 +1,125 @@
+.relative {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .form-container {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .Loginpage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background:rgb(149 79 173);
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    width: 400px;
+    border-radius: 20px;
+  }
+  
+  .Loginpage > h1 {
+    color: white;
+    font-family: system-ui, sans-serif;
+    border-bottom: 3px solid white;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 15px;
+  }
+  
+  .input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .input > input {
+    width: 300px;
+    padding: 12px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .input > input:focus {
+    outline: none;
+  }
+  
+  .icons {
+    margin-right: 10px;
+    color: white;
+  }
+  
+  .button {
+    cursor: pointer;
+    margin: 15px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+    background-color: white;
+    color: rgb(97, 97, 97);
+    font-family: system-ui, sans-serif;
+    transition: 0.3s;
+  }
+  
+  .button:hover {
+    background-color: grey;
+    color: white;
+  }
+  
+  .accountbutton {
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    margin: 10px;
+    border: none;
+    font-size: 16px;
+    border-bottom: 2px solid white;
+  }
+  
+  .accountbutton:hover {
+    border-bottom: 2px solid grey;
+  }
+  
+  .Loginpage > p {
+    color: red;
+    font-size: 12px;
+    margin: 5px;
+    display: none;
+    text-align: center;
+  }
+  
+  @media (max-width: 700px) {
+    .Loginpage {
+      width: 90%;
+    }
+  
+    .input > input {
+      width: 100%;
+    }
+  }
+  .home-button {
+    background: linear-gradient(135deg, #dfc3b7, #dfc3b7);
+    color: rgb(3, 0, 4);
+    padding: 2px 20px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.home-button:hover {
+    background: linear-gradient(135deg, #FF9C73, #251903);
+}
+  

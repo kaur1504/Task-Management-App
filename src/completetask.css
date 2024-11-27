@@ -1,0 +1,65 @@
+.toColor {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(135deg, #ff45456d, #faaf2fc3);
+    color: black;
+}
+
+p {
+    color: black;
+}
+
+.main-container {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    width: 30vw;
+    padding: 40px;
+    text-align: center;
+    margin-left: 10rem;
+}
+
+.content h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.tasks-list {
+    margin-top: 30px;
+}
+
+.task {
+    background-color: #34495e;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 8px;
+    color: #ecf0f1;
+}
+
+.task h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.task p {
+    font-size: 16px;
+}
+
+@media (max-width: 768px) {
+    .main-container {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .content {
+        width: 90vw;
+        margin-left: 0;
+    }
+}
