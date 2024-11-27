@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  width: 100vw;
+}
+
+.home-header {
+  background: linear-gradient(135deg, #FF4545, #FAB12F);
+  color: white;
+  padding: 20px;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.home-header h1 {
+  font-size: 2.5rem;
+}
+
+.highlight {
+  color: #FEF3E2;
+}
+
+.tagline {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+.home-main {
+  flex-grow: 1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(135deg, #FCF596, #FF9C73);
+  padding-top: 8rem;
+}
+
+.intro-section {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.intro-section h2 {
+  font-size: 1.8rem;
+}
+
+.description {
+  font-size: 1rem;
+  margin-top: 10px;
+  color: #FA4032;
+}
+
+.features-section {
+  margin-bottom: 30px;
+  text-align: center;
+}
+.Featrues{
+  color: black;
+}
+.features-section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  color: #FA812F;
+}
+
+.features-section ul {
+  list-style-type: none;
+}
+
+.features-section ul li {
+  font-size: 1.2rem;
+  margin: 5px 0;
+  color: #FA4032;
+}
+
+.cta-section {
+  text-align: center;
+}
+
+.cta-button {
+  background: linear-gradient(135deg, #FAB12F, #FF9C73);
+  color: white;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 5px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.cta-button:hover {
+  background: linear-gradient(135deg, #FF4545, #FAB12F);
+}
+
+.home-footer {
+  background: linear-gradient(135deg, #FEF3E2, #FA4032);
+  color: white;
+  padding: 10px;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.home-footer p {
+  font-size: 0.9rem;
+}
